@@ -12,8 +12,9 @@ const ROUTES:Routes=[
   {path:"",redirectTo:"home",pathMatch:"full"},
   {path:"home",component:HomeComponent},
   {path:"residence",component:ResidenceComponent},
-  {path:"Formulaire",component:FormulaireComponent},
-  {path:"Appartment",component:AppartmentComponent}
+  {path:"appart",component:AppartmentComponent},
+  {path:"Formulaire",component:FormulaireComponent}
+
   //{path:"**",component:NotfoundComponent}
  ]
 @NgModule({

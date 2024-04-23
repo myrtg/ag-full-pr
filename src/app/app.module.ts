@@ -32,7 +32,8 @@ import { AppartmentComponent } from './appartment/appartment.component';
     FormsModule,
     AppRoutingModule,
      AnnonceModule,
-     ReactiveFormsModule
+     ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
