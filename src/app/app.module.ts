@@ -12,9 +12,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { AppRoutingModule } from './app.routing.module';
 import { AnnonceModule } from './annonce/annonce.module';
 import { FormulaireComponent } from './formulaire/formulaire.component';
+import { HttpClientModule} from "@angular/common/http";
+import { AppartmentComponent } from './appartment/appartment.component';
 
 
- 
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,11 +24,12 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
     ResidenceComponent,
     HomeComponent,
     NotfoundComponent,
-    FormulaireComponent
+    FormulaireComponent,
+    AppartmentComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,   
+    FormsModule,
     AppRoutingModule,
      AnnonceModule,
      ReactiveFormsModule
